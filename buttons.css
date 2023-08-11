@@ -1,0 +1,52 @@
+.subbutton {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2px;
+    cursor:pointer;
+    transition: opacity 0.15s;
+ }
+.subbutton:hover{
+    opacity: 0.3;
+}
+.subbutton:active{
+    opacity: 0.4;
+}
+.tweet{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color:rgb(0, 142, 202);
+    border-color:rgb(0, 142, 202);
+    height: 36px;
+    width: 80px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opactity 0.15s, color 0.25s;
+}
+.tweet:hover{
+   color: white;
+   background-color: rgb(81, 81, 255);
+   opacity: 0.7;
+}
+.like{
+    background-color:rgb(63, 197, 255) ;
+    height: 36px;
+    width: 80px;
+    border:none;
+    border-radius: 34px;
+    color: white;
+    border-style: solid;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    
+}
+.like:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+}
